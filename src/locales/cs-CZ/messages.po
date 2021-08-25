@@ -124,6 +124,10 @@ msgstr "Adresa"
 msgid "Address / Puzzle hash"
 msgstr "Adresa / Hash šifry"
 
+#: src/components/app/AppKeyringMigrator.tsx:158
+msgid "After your keys are successfully migrated to the new keyring, you may choose to have your keys removed from the old keyring."
+msgstr ""
+
 #: src/components/core/components/Amount/Amount.tsx:96
 #: src/components/trading/CreateOffer.jsx:196
 #: src/components/trading/TradesTable.tsx:20
@@ -271,6 +275,7 @@ msgstr "Koupit"
 msgid "Can be backed up to mnemonic seed"
 msgstr "Lze zálohovat do sledu 24 slov"
 
+#: src/components/app/AppPassPrompt.tsx:239
 #: src/components/core/components/ConfirmDialog/ConfirmDialog.tsx:86
 #: src/components/farm/FarmManageFarmingRewards.tsx:196
 #: src/components/fullNode/FullNodeAddConnection.tsx:89
@@ -399,7 +404,8 @@ msgstr "Potvrdit odpojení"
 msgid "Confirm New Passphrase"
 msgstr ""
 
-#: src/components/app/AppKeyringMigrator.tsx:148
+#: src/components/app/AppKeyringMigrator.tsx:140
+#: src/components/app/AppKeyringMigrator.tsx:141
 #: src/components/settings/SetPassphrasePrompt.tsx:153
 msgid "Confirm Passphrase"
 msgstr ""
@@ -626,7 +632,7 @@ msgstr "Zpoždění"
 msgid "Delete"
 msgstr "Smazat"
 
-#: src/components/app/AppPassPrompt.tsx:193
+#: src/components/app/AppPassPrompt.tsx:195
 msgid "Delete Key"
 msgstr ""
 
@@ -657,7 +663,7 @@ msgstr ""
 msgid "Deleting all keys will permanently remove the keys from your computer, make sure you have backups. Are you sure you want to continue?"
 msgstr "Smazáním klíčů permanentně odeberete všechny klíče z počítače. Ujistěte se, že máte zálohu. Jste si jisti, že chcete pokračovat?"
 
-#: src/components/app/AppPassPrompt.tsx:189
+#: src/components/app/AppPassPrompt.tsx:191
 msgid "Deleting key"
 msgstr ""
 
@@ -678,11 +684,11 @@ msgstr "Vývojářské nástroje"
 msgid "Difficulty"
 msgstr "Obtížnost"
 
-#: src/components/app/AppPassPrompt.tsx:77
+#: src/components/app/AppPassPrompt.tsx:78
 msgid "Disable"
 msgstr ""
 
-#: src/components/app/AppPassPrompt.tsx:76
+#: src/components/app/AppPassPrompt.tsx:77
 msgid "Disable Passphrase Protection"
 msgstr ""
 
@@ -738,7 +744,7 @@ msgstr "Upravit"
 msgid "Edit Payout Instructions"
 msgstr ""
 
-#: src/components/app/AppKeyringMigrator.tsx:127
+#: src/components/app/AppKeyringMigrator.tsx:119
 msgid "Enter a strong passphrase and click Migrate to secure your keys"
 msgstr ""
 
@@ -810,7 +816,7 @@ msgstr ""
 msgid "Failed to update passphrase: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:56
+#: src/components/dashboard/DashboardSideBar.tsx:58
 #: src/components/wallet/coloured/WalletColoured.tsx:610
 #: src/components/wallet/standard/WalletStandard.tsx:532
 msgid "Farm"
@@ -931,7 +937,7 @@ msgstr "Sledovat na Twitteru"
 msgid "Frequently Asked Questions"
 msgstr "Často kladené otázky"
 
-#: src/components/dashboard/DashboardSideBar.tsx:40
+#: src/components/dashboard/DashboardSideBar.tsx:42
 #: src/components/fullNode/FullNode.jsx:323
 msgid "Full Node"
 msgstr "Uzel"
@@ -1103,7 +1109,7 @@ msgstr "K - velikost"
 msgid "Keyring migration failed: {error}"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:67
+#: src/components/dashboard/DashboardSideBar.tsx:69
 msgid "Keys"
 msgstr "Klíče"
 
@@ -1222,6 +1228,11 @@ msgstr ""
 msgid "Migrate Keyring"
 msgstr ""
 
+#: src/components/app/AppKeyringMigrator.tsx:188
+msgid "Migrate Keys"
+msgstr ""
+
+#: src/components/app/AppKeyringMigrator.tsx:115
 #: src/components/selectKey/SelectKey.tsx:144
 msgid "Migration required"
 msgstr ""
@@ -1275,7 +1286,7 @@ msgstr ""
 msgid "New Wallet"
 msgstr "Nová peněženka"
 
-#: src/components/app/AppPassPrompt.tsx:59
+#: src/components/app/AppPassPrompt.tsx:60
 msgid "New passphrase is the same as your current passphrase"
 msgstr ""
 
@@ -1408,8 +1419,9 @@ msgstr "Odchozí"
 #~ msgid "Passcode Settings"
 #~ msgstr ""
 
-#: src/components/app/AppKeyringMigrator.tsx:137
-#: src/components/app/AppPassPrompt.tsx:219
+#: src/components/app/AppKeyringMigrator.tsx:129
+#: src/components/app/AppKeyringMigrator.tsx:130
+#: src/components/app/AppPassPrompt.tsx:221
 #: src/components/settings/RemovePassphrasePrompt.tsx:123
 #: src/components/settings/SetPassphrasePrompt.tsx:142
 msgid "Passphrase"
@@ -1419,7 +1431,7 @@ msgstr ""
 msgid "Passphrase Settings"
 msgstr ""
 
-#: src/components/app/AppPassPrompt.tsx:143
+#: src/components/app/AppPassPrompt.tsx:149
 #: src/components/settings/RemovePassphrasePrompt.tsx:64
 msgid "Passphrase is incorrect"
 msgstr ""
@@ -1441,8 +1453,8 @@ msgid "Passphrase support requires migrating your keys to a new keyring"
 msgstr ""
 
 #: src/components/app/AppPassPrompt.tsx:49
-msgid "Passphrases must be at least {0} characters in length"
-msgstr ""
+#~ msgid "Passphrases must be at least {0} characters in length"
+#~ msgstr ""
 
 #: src/components/app/AppPassLogin.tsx:34
 #: src/components/settings/Settings.tsx:74
@@ -1502,7 +1514,7 @@ msgstr "Přidejte prosím pár k obchodování"
 msgid "Please enter 0 fee. Positive fees not supported yet for RL."
 msgstr "Zadejte 0 poplatek. Kladné poplatky ještě nejsou pro RL podporovány."
 
-#: src/components/app/AppPassPrompt.tsx:128
+#: src/components/app/AppPassPrompt.tsx:133
 #: src/components/settings/SetPassphrasePrompt.tsx:48
 msgid "Please enter a passphrase"
 msgstr ""
@@ -1545,13 +1557,13 @@ msgstr "Prosím, zadejte platný veřejný klíč"
 msgid "Please enter your current passphrase, and a new passphrase"
 msgstr ""
 
-#: src/components/app/AppPassPrompt.tsx:180
-#: src/components/app/AppPassPrompt.tsx:196
+#: src/components/app/AppPassPrompt.tsx:182
+#: src/components/app/AppPassPrompt.tsx:198
 #: src/components/settings/RemovePassphrasePrompt.tsx:47
 msgid "Please enter your passphrase"
 msgstr ""
 
-#: src/components/app/AppPassPrompt.tsx:190
+#: src/components/app/AppPassPrompt.tsx:192
 msgid "Please enter your passphrase to proceed"
 msgstr ""
 
@@ -1648,7 +1660,7 @@ msgstr "Pole je duplikát {0}"
 msgid "PlotNFT is transitioning to (target state). This can take a while. Please do not close the application until this is finalized."
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:51
+#: src/components/dashboard/DashboardSideBar.tsx:53
 msgid "Plots"
 msgstr "Pole"
 
@@ -1691,7 +1703,7 @@ msgstr ""
 msgid "Points Successful in Last 24 Hours"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:61
+#: src/components/dashboard/DashboardSideBar.tsx:63
 #: src/components/pool/Pool.tsx:25
 msgid "Pool"
 msgstr ""
@@ -1905,6 +1917,10 @@ msgstr "Poznámky k vydání"
 msgid "Remove Passphrase"
 msgstr ""
 
+#: src/components/app/AppKeyringMigrator.tsx:155
+msgid "Remove keys from old keyring upon successful migration"
+msgstr ""
+
 #: src/components/plot/queue/PlotQueueIndicator.tsx:36
 msgid "Removing"
 msgstr "Odebírání"
@@ -2049,11 +2065,11 @@ msgstr "Pošlete svůj veřejný klíč vašemu správci Rate Limited peněženk
 msgid "Set Passphrase"
 msgstr ""
 
-#: src/components/app/AppPassPrompt.tsx:74
+#: src/components/app/AppPassPrompt.tsx:75
 msgid "Setting a passphrase is strongly recommended to protect your keys. Are you sure you want to skip setting a passphrase?"
 msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:73
+#: src/components/dashboard/DashboardSideBar.tsx:76
 #: src/components/settings/Settings.tsx:244
 msgid "Settings"
 msgstr ""
@@ -2076,7 +2092,8 @@ msgid "Sign In"
 msgstr "Přihlásit se"
 
 #: src/components/app/AppKeyringMigrator.tsx:47
-#: src/components/app/AppPassPrompt.tsx:73
+#: src/components/app/AppKeyringMigrator.tsx:177
+#: src/components/app/AppPassPrompt.tsx:74
 msgid "Skip"
 msgstr ""
 
@@ -2084,7 +2101,7 @@ msgstr ""
 msgid "Skip Keyring Migration"
 msgstr ""
 
-#: src/components/app/AppPassPrompt.tsx:72
+#: src/components/app/AppPassPrompt.tsx:73
 msgid "Skip Passphrase Protection"
 msgstr ""
 
@@ -2185,7 +2202,7 @@ msgstr "Stav:"
 #~ msgid "Sub Block at height {0} in the Chia blockchain"
 #~ msgstr "Sub Block at height {0} in the Chia blockchain"
 
-#: src/components/app/AppPassPrompt.tsx:197
+#: src/components/app/AppPassPrompt.tsx:199
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
 msgid "Submit"
 msgstr "Odeslat"
@@ -2279,7 +2296,7 @@ msgstr ""
 msgid "The pool switching operation was cancelled, please try again by changing pool, or self pooling"
 msgstr ""
 
-#: src/components/app/AppPassPrompt.tsx:38
+#: src/components/app/AppPassPrompt.tsx:37
 msgid "The provided passphrase and confirmation do not match"
 msgstr ""
 
@@ -2503,7 +2520,7 @@ msgstr "Jedinečný identifikátor"
 msgid "Unknown"
 msgstr "Neznámé"
 
-#: src/components/app/AppPassPrompt.tsx:183
+#: src/components/app/AppPassPrompt.tsx:185
 msgid "Unlock Keyring"
 msgstr ""
 
@@ -2516,7 +2533,7 @@ msgstr ""
 msgid "User Pubkey"
 msgstr "Uživatelský veřejný klíč"
 
-#: src/components/app/AppPassPrompt.tsx:78
+#: src/components/app/AppPassPrompt.tsx:79
 msgid "Using a passphrase is strongly recommended to protect your keys. Are you sure you want to disable passphrase protection?"
 msgstr ""
 
@@ -2609,7 +2626,7 @@ msgstr ""
 #~ msgid "WalletStatusCard.syncing"
 #~ msgstr ""
 
-#: src/components/dashboard/DashboardSideBar.tsx:46
+#: src/components/dashboard/DashboardSideBar.tsx:48
 #: src/components/wallet/Wallets.tsx:112
 msgid "Wallets"
 msgstr "Peněženky"
@@ -2757,7 +2774,7 @@ msgstr ""
 #~ msgid "Your inputs for old passphrase do not match"
 #~ msgstr ""
 
-#: src/components/app/AppPassPrompt.tsx:179
+#: src/components/app/AppPassPrompt.tsx:181
 msgid "Your keyring is locked"
 msgstr ""
 
@@ -2769,11 +2786,11 @@ msgstr ""
 msgid "Your keys have not been migrated to a new keyring. You will be unable to create new keys or delete existing keys until migration completes. Would you like to migrate your keys now?"
 msgstr ""
 
-#: src/components/app/AppKeyringMigrator.tsx:103
+#: src/components/app/AppKeyringMigrator.tsx:95
 msgid "Your keys need to be migrated to a new keyring that is optionally secured by a master passphrase."
 msgstr ""
 
-#: src/components/app/AppKeyringMigrator.tsx:109
+#: src/components/app/AppKeyringMigrator.tsx:101
 msgid "Your keys need to be migrated to a new keyring that is secured by a master passphrase."
 msgstr ""
 
@@ -2829,6 +2846,10 @@ msgstr "synchronizováno"
 #: src/components/wallet/Wallets.tsx:61
 msgid "syncing"
 msgstr "synchronizace"
+
+#: src/components/app/AppPassPrompt.tsx:48
+msgid "{0, plural, one {Passphrases must be at least # character in length} other {Passphrases must be at least characters in length}}"
+msgstr ""
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:16
 #~ msgid "{0} Block Rewards"
