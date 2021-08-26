@@ -173,21 +173,6 @@ export default function SelectKey() {
     return true;
   }
 
-  async function handleKeyringMutator(e: React.MouseEvent<HTMLButtonElement>): Promise<boolean> {
-    // If the keyring requires migration and the user prevoiusly skipped migration, prompt again
-    if (needsKeyringMigration && skippedKeyringMigration) {
-      // Disable default event handling to avoid navigation updates
-      e.preventDefault();
-      e.stopPropagation();
-
-      promptForKeyringMigration();
-
-      return false;
-    }
-
-    return true;
-  }
-
   return (
     <LayoutHero>
       <Container maxWidth="xs">
