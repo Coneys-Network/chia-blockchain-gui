@@ -281,6 +281,10 @@ msgstr "Buy"
 #~ msgid "CCListItems.title"
 #~ msgstr ""
 
+#: src/components/wallet/standard/WalletStandard.tsx:652
+msgid "CSR Wallet"
+msgstr "CSR Wallet"
+
 #: src/components/selectKey/SelectKey.tsx:212
 msgid "Can be backed up to mnemonic seed"
 msgstr "Can be backed up to mnemonic seed"
@@ -348,8 +352,8 @@ msgid "Chia Blockchain Wiki"
 msgstr "Chia Blockchain Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:652
-msgid "Chia Wallet"
-msgstr "Chia Wallet"
+#~ msgid "Chia Wallet"
+#~ msgstr "Chia Wallet"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
