@@ -5,16 +5,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
-"Language: en_US\n"
+"Language: en_NZ\n"
 "Project-Id-Version: chia-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2021-09-17 17:39\n"
+"PO-Revision-Date: 2021-09-17 17:40\n"
 "Last-Translator: \n"
-"Language-Team: English\n"
+"Language-Team: English, New Zealand\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: chia-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
-"X-Crowdin-Language: en\n"
+"X-Crowdin-Language: en-NZ\n"
 "X-Crowdin-File: /[Chia-Network.chia-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
@@ -131,7 +131,7 @@ msgstr "Address / Puzzle hash"
 
 #: src/components/app/AppKeyringMigrator.tsx:195
 msgid "After your keys are successfully migrated to the new keyring, you may choose to have your keys removed from the old keyring."
-msgstr "After your keys are successfully migrated to the new keyring, you may choose to have your keys removed from the old keyring."
+msgstr ""
 
 #: src/components/core/components/Amount/Amount.tsx:99
 #: src/components/trading/CreateOffer.jsx:196
@@ -149,7 +149,7 @@ msgstr "Amount ({cc_unit})"
 
 #: src/components/wallet/create/createRLAdmin.jsx:239
 msgid "Amount For Initial Coin"
-msgstr "Amount for Initial Coin"
+msgstr "Amount For Initial Coin"
 
 #: src/components/wallet/did/WalletDIDCreate.tsx:62
 msgid "Amount must be an even amount."
@@ -171,7 +171,7 @@ msgstr "Are you sure you want to disconnect?"
 
 #: src/electron/main.tsx:196
 msgid "Are you sure you want to quit? GUI Plotting and farming will stop."
-msgstr "Are you sure you want to quit? GUI plotting and farming will stop."
+msgstr "Are you sure you want to quit? GUI Plotting and farming will stop."
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:31
 #~ msgid "Are you sure you want to use k={plotSize}"
@@ -326,7 +326,7 @@ msgstr "Change"
 #: src/components/settings/ChangePassphrasePrompt.tsx:248
 #: src/components/settings/Settings.tsx:158
 msgid "Change Passphrase"
-msgstr "Change Passphrase"
+msgstr ""
 
 #: src/components/plotNFT/PlotNFTCard.tsx:408
 #: src/components/plotNFT/PlotNFTChangePool.tsx:110
@@ -383,27 +383,27 @@ msgstr "Coins:"
 #: src/components/trading/CreateOffer.jsx:172
 #: src/components/trading/TradesTable.tsx:24
 msgid "Colour"
-msgstr "Color"
+msgstr "Colour"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:223
 msgid "Colour Info"
-msgstr "Color Info"
+msgstr "Colour Info"
 
 #: src/components/wallet/create/createExistingColouredCoin.jsx:110
 msgid "Colour String"
-msgstr "Color String"
+msgstr "Colour String"
 
 #: src/components/wallet/coloured/WalletColoured.tsx:228
 msgid "Colour:"
-msgstr "Color:"
+msgstr "Colour:"
 
 #: src/components/wallet/create/WalletCreateList.tsx:34
 msgid "Coloured Coin"
-msgstr "Colored Coin"
+msgstr "Coloured Coin"
 
 #: src/components/wallet/create/WalletCreate.jsx:122
 msgid "Coloured Coin Options"
-msgstr "Colored Coin Options"
+msgstr "Coloured Coin Options"
 
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:168
 #: src/electron/main.tsx:194
@@ -417,13 +417,13 @@ msgstr "Confirm Disconnect"
 
 #: src/components/settings/ChangePassphrasePrompt.tsx:198
 msgid "Confirm New Passphrase"
-msgstr "Confirm New Passphrase"
+msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:146
 #: src/components/app/AppKeyringMigrator.tsx:147
 #: src/components/settings/SetPassphrasePrompt.tsx:166
 msgid "Confirm Passphrase"
-msgstr "Confirm Passphrase"
+msgstr ""
 
 #: src/components/plotNFT/PlotNFTCard.tsx:121
 #: src/components/wallet/standard/WalletStandard.tsx:622
@@ -509,7 +509,7 @@ msgstr "Create"
 
 #: src/components/wallet/did/WalletDID.tsx:970
 msgid "Create An Attestation Packet"
-msgstr "Create an Attestation Packet"
+msgstr "Create An Attestation Packet"
 
 #: src/components/wallet/create/WalletCreate.jsx:290
 #~ msgid "Create DID wallet"
@@ -571,7 +571,7 @@ msgstr "Create admin wallet"
 
 #: src/components/wallet/create/WalletCreate.jsx:132
 msgid "Create new coloured coin"
-msgstr "Create new colored coin"
+msgstr "Create new coloured coin"
 
 #: src/components/wallet/create/WalletCreate.jsx:192
 msgid "Create user wallet"
@@ -579,11 +579,11 @@ msgstr "Create user wallet"
 
 #: src/components/wallet/create/createExistingColouredCoin.jsx:93
 msgid "Create wallet for colour"
-msgstr "Create wallet for color"
+msgstr "Create wallet for colour"
 
 #: src/components/wallet/create/WalletCreate.jsx:139
 msgid "Create wallet for existing colour"
-msgstr "Create wallet for existing color"
+msgstr "Create wallet for existing colour"
 
 #: src/components/wallet/Wallets.tsx:81
 #~ msgid "CreateWallet.addWallet"
@@ -616,7 +616,7 @@ msgstr "Current Difficulty"
 
 #: src/components/settings/ChangePassphrasePrompt.tsx:178
 msgid "Current Passphrase"
-msgstr "Current Passphrase"
+msgstr ""
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:156
 #: src/components/plotNFT/PlotNFTCard.tsx:198
@@ -666,7 +666,7 @@ msgstr "Delete"
 
 #: src/components/app/AppPassPrompt.tsx:198
 msgid "Delete Key"
-msgstr "Delete Key"
+msgstr ""
 
 #: src/components/plot/PlotAction.tsx:26
 #: src/components/plot/queue/PlotQueueActions.tsx:42
@@ -697,7 +697,7 @@ msgstr "Delete key {fingerprint}"
 
 #: src/components/app/AppPassPrompt.tsx:194
 msgid "Deleting key"
-msgstr "Deleting key"
+msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:101
 #~ msgid "Deleting the key will permanently remove the key from your computer, make sure you have backups. Are you sure you want to continue?"
@@ -718,11 +718,11 @@ msgstr "Difficulty"
 
 #: src/components/app/AppPassPrompt.tsx:78
 msgid "Disable"
-msgstr "Disable"
+msgstr ""
 
 #: src/components/app/AppPassPrompt.tsx:77
 msgid "Disable Passphrase Protection"
-msgstr "Disable Passphrase Protection"
+msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:114
 #~ msgid "Disable bifield plotting when your temporary directory is on fast storage like SSD or you need lower per process RAM requirements. Plotting with bitfield enabled has about 20% less overall writes."
@@ -786,15 +786,15 @@ msgstr "Edit Payout Instructions"
 
 #: src/components/wallet/EnterPassphrasePrompt.tsx:111
 #~ msgid "Enter Passphrase"
-#~ msgstr "Enter Passphrase"
+#~ msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:125
 msgid "Enter a strong passphrase and click Migrate Keys to secure your keys"
-msgstr "Enter a strong passphrase and click Migrate Keys to secure your keys"
+msgstr ""
 
 #: src/components/settings/SetPassphrasePrompt.tsx:145
 msgid "Enter a strong passphrase to secure your keys:"
-msgstr "Enter a strong passphrase to secure your keys:"
+msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:146
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
@@ -802,7 +802,7 @@ msgstr "Enter the 24 word mnemonic that you have saved in order to restore your 
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:118
 msgid "Enter your passphrase:"
-msgstr "Enter your passphrase:"
+msgstr ""
 
 #: src/components/farm/FarmerStatus.tsx:21
 #: src/components/farm/FarmerStatus.tsx:22
@@ -816,7 +816,7 @@ msgstr "Error"
 
 #: src/components/wallet/standard/WalletStandard.tsx:450
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Error: Cannot send chia to colored address. Please enter a chia address."
+msgstr "Error: Cannot send chia to coloured address. Please enter a chia address."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -850,15 +850,15 @@ msgstr "Failed to open (invalid plots)"
 
 #: src/components/settings/ChangePassphrasePrompt.tsx:97
 msgid "Failed to remove passphrase: {error}"
-msgstr "Failed to remove passphrase: {error}"
+msgstr ""
 
 #: src/components/settings/SetPassphrasePrompt.tsx:92
 msgid "Failed to set passphrase: {error}"
-msgstr "Failed to set passphrase: {error}"
+msgstr ""
 
 #: src/components/settings/ChangePassphrasePrompt.tsx:120
 msgid "Failed to update passphrase: {error}"
-msgstr "Failed to update passphrase: {error}"
+msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:58
 #: src/components/wallet/coloured/WalletColoured.tsx:610
@@ -1005,7 +1005,7 @@ msgstr "Full Screen"
 
 #: src/components/wallet/create/createNewColouredCoin.jsx:102
 msgid "Generate New Colour"
-msgstr "Generate New Color"
+msgstr "Generate New Colour"
 
 #: src/components/plotNFT/PlotNFTCard.tsx:251
 #~ msgid "Get Pool Login Link"
@@ -1056,7 +1056,7 @@ msgstr "Hide Advanced Options"
 #: src/components/app/AppPassPrompt.tsx:233
 #: src/components/settings/RemovePassphrasePrompt.tsx:134
 msgid "Hint"
-msgstr "Hint"
+msgstr ""
 
 #: src/components/wallet/WalletHistory.tsx:91
 msgid "History"
@@ -1122,7 +1122,7 @@ msgstr "Initial Amount"
 
 #: src/components/wallet/create/createRLUser.jsx:87
 msgid "Initialize a Rate Limited User Wallet:"
-msgstr "Initialize a Rate Limited User Wallet:"
+msgstr "Initialise a Rate Limited User Wallet:"
 
 #: src/components/wallet/create/createRLAdmin.jsx:218
 msgid "Interval"
@@ -1165,7 +1165,7 @@ msgstr "K-Size"
 
 #: src/components/app/AppKeyringMigrator.tsx:86
 msgid "Keyring migration failed: {error}"
-msgstr "Keyring migration failed: {error}"
+msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:69
 msgid "Keys"
@@ -1284,24 +1284,24 @@ msgstr "MiB Up/Down"
 
 #: src/components/selectKey/SelectKey.tsx:137
 msgid "Migrate"
-msgstr "Migrate"
+msgstr ""
 
 #: src/components/settings/Settings.tsx:182
 msgid "Migrate Keyring"
-msgstr "Migrate Keyring"
+msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:226
 msgid "Migrate Keys"
-msgstr "Migrate Keys"
+msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:121
 #: src/components/selectKey/SelectKey.tsx:136
 msgid "Migration required"
-msgstr "Migration required"
+msgstr ""
 
 #: src/components/settings/Settings.tsx:121
 msgid "Migration required to support passphrase protection"
-msgstr "Migration required to support passphrase protection"
+msgstr ""
 
 #: src/components/pool/PoolInfo.tsx:27
 msgid "Minimum Difficulty"
@@ -1342,7 +1342,7 @@ msgstr "New Address"
 
 #: src/components/settings/ChangePassphrasePrompt.tsx:188
 msgid "New Passphrase"
-msgstr "New Passphrase"
+msgstr ""
 
 #: src/components/wallet/WalletAdd.tsx:63
 msgid "New Wallet"
@@ -1350,7 +1350,7 @@ msgstr "New Wallet"
 
 #: src/components/app/AppPassPrompt.tsx:60
 msgid "New passphrase is the same as your current passphrase"
-msgstr "New passphrase is the same as your current passphrase"
+msgstr ""
 
 #: src/components/block/Block.jsx:351
 #: src/components/wallet/WalletAdd.tsx:95
@@ -1407,7 +1407,7 @@ msgstr "None of your plots have passed the plot filter yet."
 #: src/components/plot/PlotStatus.tsx:19
 #: src/components/plotNFT/PlotNFTCard.tsx:365
 msgid "Not Available"
-msgstr "Not Available"
+msgstr "Not available"
 
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:37
 #: src/components/wallet/WalletStatus.tsx:28
@@ -1483,44 +1483,44 @@ msgstr "Outgoing"
 #: src/components/settings/RemovePassphrasePrompt.tsx:126
 #: src/components/settings/SetPassphrasePrompt.tsx:155
 msgid "Passphrase"
-msgstr "Passphrase"
+msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:159
 #: src/components/settings/ChangePassphrasePrompt.tsx:209
 #: src/components/settings/SetPassphrasePrompt.tsx:179
 msgid "Passphrase Hint"
-msgstr "Passphrase Hint"
+msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:158
 #: src/components/settings/ChangePassphrasePrompt.tsx:208
 #: src/components/settings/SetPassphrasePrompt.tsx:178
 msgid "Passphrase Hint (Optional)"
-msgstr "Passphrase Hint (Optional)"
+msgstr ""
 
 #: src/components/settings/Settings.tsx:213
 msgid "Passphrase Settings"
-msgstr "Passphrase Settings"
+msgstr ""
 
 #: src/components/app/AppPassPrompt.tsx:152
 #: src/components/settings/RemovePassphrasePrompt.tsx:67
 msgid "Passphrase is incorrect"
-msgstr "Passphrase is incorrect"
+msgstr ""
 
 #: src/components/settings/Settings.tsx:93
 msgid "Passphrase protection has been disabled"
-msgstr "Passphrase protection has been disabled"
+msgstr ""
 
 #: src/components/settings/Settings.tsx:131
 msgid "Passphrase protection is disabled"
-msgstr "Passphrase protection is disabled"
+msgstr ""
 
 #: src/components/settings/Settings.tsx:128
 msgid "Passphrase protection is enabled"
-msgstr "Passphrase protection is enabled"
+msgstr ""
 
 #: src/components/settings/Settings.tsx:122
 msgid "Passphrase support requires migrating your keys to a new keyring"
-msgstr "Passphrase support requires migrating your keys to a new keyring"
+msgstr ""
 
 #: src/components/plotNFT/PlotNFTCard.tsx:361
 msgid "Payout Address"
@@ -1583,7 +1583,7 @@ msgstr "Please enter a filename"
 #: src/components/app/AppPassPrompt.tsx:136
 #: src/components/settings/SetPassphrasePrompt.tsx:57
 msgid "Please enter a passphrase"
-msgstr "Please enter a passphrase"
+msgstr ""
 
 #: src/components/wallet/did/WalletDID.tsx:937
 msgid "Please enter a pubkey"
@@ -1600,7 +1600,7 @@ msgstr "Please enter a valid initial coin amount"
 #: src/components/wallet/did/WalletDID.tsx:777
 #: src/components/wallet/did/WalletDIDCreate.tsx:76
 msgid "Please enter a valid integer of 0 or greater for the number of Backup IDs needed for recovery."
-msgstr "Please enter an integer value of 0 or greater for the number of Backup IDs needed for recovery."
+msgstr "Please enter a valid integer of 0 or greater for the number of Backup IDs needed for recovery."
 
 #: src/components/wallet/create/createNewColouredCoin.jsx:69
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:639
@@ -1610,7 +1610,7 @@ msgstr "Please enter a valid numeric amount"
 
 #: src/components/wallet/did/WalletDIDCreate.tsx:50
 msgid "Please enter a valid numeric amount."
-msgstr "Please enter a numeric amount."
+msgstr "Please enter a valid numeric amount."
 
 #: src/components/wallet/create/createExistingColouredCoin.jsx:70
 #: src/components/wallet/create/createNewColouredCoin.jsx:79
@@ -1634,17 +1634,17 @@ msgstr "Please enter a valid pubkey"
 
 #: src/components/settings/ChangePassphrasePrompt.tsx:63
 msgid "Please enter your current passphrase, and a new passphrase"
-msgstr "Please enter your current passphrase, and a new passphrase"
+msgstr ""
 
 #: src/components/app/AppPassPrompt.tsx:185
 #: src/components/app/AppPassPrompt.tsx:201
 #: src/components/settings/RemovePassphrasePrompt.tsx:50
 msgid "Please enter your passphrase"
-msgstr "Please enter your passphrase"
+msgstr ""
 
 #: src/components/app/AppPassPrompt.tsx:195
 msgid "Please enter your passphrase to proceed"
-msgstr "Please enter your passphrase to proceed"
+msgstr ""
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:623
 #: src/components/wallet/standard/WalletStandard.tsx:420
@@ -1657,7 +1657,7 @@ msgstr "Please select amount"
 
 #: src/components/wallet/did/WalletDIDRecovery.tsx:55
 msgid "Please select backup file first"
-msgstr "Please select the backup file first"
+msgstr "Please select backup file first"
 
 #: src/components/trading/CreateOffer.jsx:76
 msgid "Please select buy or sell"
@@ -1665,7 +1665,7 @@ msgstr "Please select buy or sell"
 
 #: src/components/trading/CreateOffer.jsx:56
 msgid "Please select coin colour"
-msgstr "Please select coin color"
+msgstr "Please select coin colour"
 
 #: src/components/trading/CreateOffer.jsx:63
 #~ msgid "Please select coin type"
@@ -1683,12 +1683,12 @@ msgstr "Please specify temporary directory"
 
 #: src/hooks/useAbsorbRewards.tsx:21
 msgid "Please wait for synchronization"
-msgstr "Please wait for synchronization"
+msgstr "Please wait for synchronisation"
 
 #: src/components/wallet/did/WalletDIDRecovery.tsx:64
 #: src/hooks/useJoinPool.tsx:27
 msgid "Please wait for wallet synchronization"
-msgstr "Please wait for wallet synchronization"
+msgstr "Please wait for wallet synchronisation"
 
 #: src/components/plot/Plot.tsx:18
 msgid "Plot"
@@ -1738,7 +1738,7 @@ msgstr "Plot in Parallel"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:46
 msgid "Plot is duplicate of {0}"
-msgstr "Plot is a duplicate of {0}"
+msgstr "Plot is duplicate of {0}"
 
 #: src/components/plotNFT/PlotNFTState.tsx:46
 #~ msgid "PlotNFT is transitioning to (target state)"
@@ -1746,7 +1746,7 @@ msgstr "Plot is a duplicate of {0}"
 
 #: src/components/plotNFT/PlotNFTState.tsx:46
 msgid "PlotNFT is transitioning to (target state). This can take a while. Please do not close the application until this is finalized."
-msgstr "PlotNFT is transitioning to (target state). This can take a while. Please do not close the application until this is finalized."
+msgstr "PlotNFT is transitioning to (target state). This can take a while. Please do not close the application until this is finalised."
 
 #: src/components/dashboard/DashboardSideBar.tsx:53
 msgid "Plots"
@@ -1939,7 +1939,7 @@ msgstr "Queue Name"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:69
 msgid "Queue name"
-msgstr "Queue Name"
+msgstr "Queue name"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:35
 msgid "Queued"
@@ -2022,11 +2022,11 @@ msgstr "Release Notes"
 #: src/components/settings/RemovePassphrasePrompt.tsx:161
 #: src/components/settings/Settings.tsx:194
 msgid "Remove Passphrase"
-msgstr "Remove Passphrase"
+msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:192
 msgid "Remove keys from old keyring upon successful migration"
-msgstr "Remove keys from old keyring upon successful migration"
+msgstr ""
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:36
 msgid "Removing"
@@ -2042,7 +2042,7 @@ msgstr "Report an Issue..."
 
 #: src/components/backup/BackupRestore.tsx:160
 msgid "Restore Metadata for Coloured Coins and other Smart Wallets from Backup"
-msgstr "Restore Metadata for Colored Coins and other Smart Wallets from Backup"
+msgstr "Restore Metadata for Coloured Coins and other Smart Wallets from Backup"
 
 #: src/components/backup/BackupRestore.tsx:107
 #~ msgid "Restore Smart Wallets From Backup"
@@ -2055,7 +2055,7 @@ msgstr "Restore Metadata for Colored Coins and other Smart Wallets from Backup"
 
 #: src/components/backup/BackupRestore.tsx:186
 msgid "Safe To Skip"
-msgstr "Safe to Skip"
+msgstr "Safe To Skip"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:203
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:131
@@ -2067,7 +2067,7 @@ msgstr "Save"
 #: src/components/settings/ChangePassphrasePrompt.tsx:224
 #: src/components/settings/SetPassphrasePrompt.tsx:194
 msgid "Save passphrase"
-msgstr "Save passphrase"
+msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:338
 #~ msgid "Search"
@@ -2083,7 +2083,7 @@ msgstr "Second temporary folder location"
 
 #: src/components/settings/Settings.tsx:124
 msgid "Secure your keychain using a strong passphrase"
-msgstr "Secure your keychain using a strong passphrase"
+msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:216
 msgid "See private key"
@@ -2119,7 +2119,7 @@ msgstr "Select Wallet Type"
 
 #: src/components/plot/add/PlotAddSelectFinalDirectory.tsx:25
 msgid "Select the final destination for the folder where you would like the plot to be stored. We recommend you use a large slow hard drive (like external HDD)."
-msgstr "Select the final destination folder to store your plots for farming. We recommend you use a large slow hard drive (like an external HDD)."
+msgstr "Select the final destination for the folder where you would like the plot to be stored. We recommend you use a large slow hard drive (like external HDD)."
 
 #: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:41
 #~ msgid "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast SSD."
@@ -2127,7 +2127,7 @@ msgstr "Select the final destination folder to store your plots for farming. We 
 
 #: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:41
 msgid "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast drive."
-msgstr "Select a temporary folder for plot creation. We recommend you use a fast drive."
+msgstr "Select the temporary destination for the folder where you would like the plot to be stored. We recommend you use a fast drive."
 
 #: src/components/plot/add/PlotAddNFT.tsx:81
 msgid "Select your Plot NFT"
@@ -2180,16 +2180,16 @@ msgstr "Send your pubkey to your Rate Limited Wallet admin:"
 #: src/components/settings/SetPassphrasePrompt.tsx:220
 #: src/components/settings/Settings.tsx:205
 msgid "Set Passphrase"
-msgstr "Set Passphrase"
+msgstr ""
 
 #: src/components/app/AppPassPrompt.tsx:75
 msgid "Setting a passphrase is strongly recommended to protect your keys. Are you sure you want to skip setting a passphrase?"
-msgstr "Setting a passphrase is strongly recommended to protect your keys. Are you sure you want to skip setting a passphrase?"
+msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:76
 #: src/components/settings/Settings.tsx:239
 msgid "Settings"
-msgstr "Settings"
+msgstr ""
 
 #: src/components/core/components/AdvancedOptions/AdvancedOptions.tsx:74
 msgid "Show Advanced Options"
@@ -2216,11 +2216,11 @@ msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:48
 msgid "Skip Keyring Migration"
-msgstr "Skip Keyring Migration"
+msgstr ""
 
 #: src/components/app/AppPassPrompt.tsx:73
 msgid "Skip Passphrase Protection"
-msgstr "Skip Passphrase Protection"
+msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:129
 #~ msgid "Skips adding [final dir] to harvester for farming"
@@ -2248,7 +2248,7 @@ msgstr "Spendable Amount"
 
 #: src/components/wallet/create/createRLAdmin.jsx:202
 msgid "Spendable Amount Per Interval"
-msgstr "Spendable Amount per Interval"
+msgstr "Spendable Amount Per Interval"
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:24
 #: src/components/wallet/coloured/WalletColoured.tsx:384
@@ -2327,7 +2327,7 @@ msgstr "Submit"
 
 #: src/components/wallet/EnterPassphrasePrompt.tsx:146
 #~ msgid "Submit Passphrase"
-#~ msgstr "Submit Passphrase"
+#~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:43
 #: src/components/wallet/WalletStatus.tsx:33
@@ -2400,7 +2400,7 @@ msgstr "The node is not synced"
 
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:29
 msgid "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
-msgstr "The node is syncing to reach the latest block in the chain by downloading blocks from other nodes"
+msgstr "The node is syncing, which means it is downloading blocks from other nodes, to reach the latest block in the chain"
 
 #: src/components/wallet/did/WalletDID.tsx:790
 #: src/components/wallet/did/WalletDIDCreate.tsx:89
@@ -2433,7 +2433,7 @@ msgstr "The pool switching operation was cancelled, please try again by changing
 
 #: src/components/app/AppPassPrompt.tsx:37
 msgid "The provided passphrase and confirmation do not match"
-msgstr "The provided passphrase and confirmation do not match"
+msgstr ""
 
 #: src/components/block/Block.jsx:303
 msgid "The seed used to create the plot. This depends on the pool pk and plot pk."
@@ -2457,7 +2457,7 @@ msgstr "These are the instructions for how the farmer wants to get paid. By defa
 
 #: src/components/plot/PlotsFailed.tsx:40
 msgid "These plots are invalid, you might want to delete them."
-msgstr "These plots are invalid, you may want to delete them."
+msgstr "These plots are invalid, you might want to delete them."
 
 #: src/components/plot/PlotAddDirectoryDialog.tsx:76
 msgid "This allows you to add a directory that has plots in it. If you have not created any plots, go to the plotting screen."
@@ -2492,7 +2492,7 @@ msgstr "This is the time of the latest peak sub block."
 
 #: src/components/block/Block.jsx:195
 msgid "This is the time the block was created by the farmer, which is before it is finalized with a proof of time"
-msgstr "This is the time the block was created by the farmer, which is before it is finalized with a proof of time"
+msgstr "This is the time the block was created by the farmer, which is before it is finalised with a proof of time"
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
 msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
@@ -2522,7 +2522,7 @@ msgstr "This plot NFT is assigned to a different key. You can still create plots
 
 #: src/components/plotNFT/PlotNFTGetPoolLoginLinkDialog.tsx:52
 msgid "This plot NFT is not connected to pool"
-msgstr "This plot NFT is not connected to a pool"
+msgstr "This plot NFT is not connected to pool"
 
 #: src/components/farm/FarmLastAttemptedProof.tsx:39
 #~ msgid "This table shows you the last time your farm attempted to win a block challenge."
@@ -2657,7 +2657,7 @@ msgstr "Unknown"
 
 #: src/components/app/AppPassPrompt.tsx:188
 msgid "Unlock Keyring"
-msgstr "Unlock Keyring"
+msgstr ""
 
 #: src/components/core/components/FormBackButton/FormBackButton.tsx:25
 msgid "Unsaved Changes"
@@ -2670,7 +2670,7 @@ msgstr "User Pubkey"
 
 #: src/components/app/AppPassPrompt.tsx:79
 msgid "Using a passphrase is strongly recommended to protect your keys. Are you sure you want to disable passphrase protection?"
-msgstr "Using a passphrase is strongly recommended to protect your keys. Are you sure you want to disable passphrase protection?"
+msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardVDFSubSlotIterations.tsx:20
 msgid "VDF Sub Slot Iterations"
@@ -2857,7 +2857,7 @@ msgstr "You can still create plots for this plot NFT, but you can not make chang
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:63
 msgid "You do not need to be synced or connected to plot. Temporary files are created during the plotting process which exceed the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
-msgstr "You do not need to be synced or connected to plot. Temporary files are created during the plotting process which exceed the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
+msgstr ""
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:56
 #~ msgid "You do not need to be synched or connected to Plot. Temporary files are created during the plotting process which exceed the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
@@ -2929,37 +2929,37 @@ msgstr "Your Pool Overview"
 
 #: src/components/app/AppPassPrompt.tsx:184
 msgid "Your keyring is locked"
-msgstr "Your keyring is locked"
+msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:54
 msgid "Your keys have not been migrated to a new keyring. You will be unable to create new keys or delete existing keys until migration completes. Are you sure you want to skip migrating your keys?"
-msgstr "Your keys have not been migrated to a new keyring. You will be unable to create new keys or delete existing keys until migration completes. Are you sure you want to skip migrating your keys?"
+msgstr ""
 
 #: src/components/selectKey/SelectKey.tsx:141
 msgid "Your keys have not been migrated to a new keyring. You will be unable to create new keys or delete existing keys until migration completes. Would you like to migrate your keys now?"
-msgstr "Your keys have not been migrated to a new keyring. You will be unable to create new keys or delete existing keys until migration completes. Would you like to migrate your keys now?"
+msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:101
 msgid "Your keys need to be migrated to a new keyring that is optionally secured by a master passphrase."
-msgstr "Your keys need to be migrated to a new keyring that is optionally secured by a master passphrase."
+msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:107
 msgid "Your keys need to be migrated to a new keyring that is secured by a master passphrase."
-msgstr "Your keys need to be migrated to a new keyring that is secured by a master passphrase."
+msgstr ""
 
 #: src/components/app/AppKeyringMigrator.tsx:177
 #: src/components/settings/ChangePassphrasePrompt.tsx:227
 #: src/components/settings/SetPassphrasePrompt.tsx:197
 msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
-msgstr "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+msgstr ""
 
 #: src/components/settings/Settings.tsx:80
 msgid "Your passphrase has been set"
-msgstr "Your passphrase has been set"
+msgstr ""
 
 #: src/components/settings/Settings.tsx:67
 msgid "Your passphrase has been updated"
-msgstr "Your passphrase has been updated"
+msgstr ""
 
 #: src/util/getDescriptiveError.ts:5
 msgid "[Error 13] Permission denied. You are trying to access a file/directory without having the necessary permissions. Most likely one of the plot folders in your config.yaml has an issue."
@@ -3004,7 +3004,7 @@ msgstr "syncing"
 
 #: src/components/app/AppPassPrompt.tsx:48
 msgid "{0, plural, one {Passphrases must be at least # character in length} other {Passphrases must be at least # characters in length}}"
-msgstr "{0, plural, one {Passphrases must be at least # character in length} other {Passphrases must be at least # characters in length}}"
+msgstr ""
 
 #: src/components/farm/card/FarmCardBlockRewards.tsx:16
 #~ msgid "{0} Block Rewards"
