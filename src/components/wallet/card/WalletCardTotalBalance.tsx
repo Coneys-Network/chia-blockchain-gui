@@ -24,8 +24,7 @@ export default function WalletCardTotalBalance(props: Props) {
   const { wallet, loading } = useWallet(wallet_id);
   const currencyCode = useCurrencyCode();
 
-  // const value = wallet?.wallet_balance?.confirmed_wallet_balance;
-  const value = 327357500000;
+  const value = wallet?.wallet_balance?.confirmed_wallet_balance;
   return (
     <FarmCard
       loading={loading}
