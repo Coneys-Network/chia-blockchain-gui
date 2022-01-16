@@ -76,7 +76,9 @@ export const async_api = (dispatch, action, openSpinner, usePromiseReject) => {
     action.resolve = resolve;
     action.reject = reject;
   }).finally(() => {
-    dispatch(closeProgress());
+    if (openSpinner) {
+      dispatch(closeProgress());
+    }
   });
 
   action.usePromiseReject = usePromiseReject;
@@ -121,11 +123,13 @@ export function pwJoinPoolMessage(
   poolUrl,
   relativeLockHeight,
   targetPuzzlehash,
+  fee,
 ) {
   const data = {
     wallet_id: walletId,
     pool_url: poolUrl,
     relative_lock_height: relativeLockHeight,
+    fee,
   };
 
   if (targetPuzzlehash) {
@@ -135,9 +139,10 @@ export function pwJoinPoolMessage(
   return format_message('pw_join_pool', data);
 }
 
-export function pwSelfPoolMessage(walletId) {
+export function pwSelfPoolMessage(walletId, fee) {
   return format_message('pw_self_pool', {
     wallet_id: walletId,
+    fee,
   });
 }
 
